@@ -10,26 +10,40 @@
       margin: 0;
       padding: 0;
     }
+
     header {
       background-color: #2c3e50;
       color: white;
       padding: 20px;
-      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+
     nav {
       background-color: #34495e;
       display: flex;
       justify-content: center;
+      padding: 10px 0;
     }
+
     nav a {
       color: white;
-      padding: 14px 20px;
+      padding: 12px 18px;
       text-decoration: none;
-      display: inline-block;
+      margin: 0 10px;
+      border-radius: 4px;
     }
+
     nav a:hover {
       background-color: #2c3e50;
     }
+
     main {
       padding: 20px;
       text-align: center;
@@ -39,7 +53,7 @@
 <body>
 
   <header>
-    <h1>Welcome to Sankxnet</h1>
+    <h1>Sankxnet</h1>
   </header>
 
   <nav>
